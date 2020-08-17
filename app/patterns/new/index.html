@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Knitgitgems</title>
+  </head>
+
+  <body>
+    <form action="/patterns" accept-charset="UTF-8" method="post">
+      <h1>Scarf</h1>
+      <h2>Overview</h2>
+      <p>
+        Probably the easiest knitting project possible, while still producing a
+        practical, gorgeous wardrobe piece!
+      </p>
+      <p>
+        This will be a simple rectangle -- you just need to choose a length and
+        width. As always, knitgit patterns assume the same stitch is used
+        throughout (no rib trim or single cables anywhere). Maybe you'll want to
+        add tassles or fringe at the end, but again - the pattern is just going
+        to calculate the basic rectangle for you. Feel free to riff on it from
+        there!
+      </p>
+      <p>
+        With a scarf, it's important to choose a stitch that looks good on BOTH
+        SIDES. Both sides don't need to be identical, but many pattern stiches
+        have a good and bad side. Make sure you'll be happy wearing the scarf
+        with both sides of the stitching visible.
+      </p>
+      <p>
+        With a scarf you also want to be wary of choosing a stitch that doesn't
+        like to lay flat. Unless you deliberately want the scarf to coil upon
+        itself like a tube, it's actually not a great idea to use a straight
+        stockinette stitch.
+      </p>
+      <p>
+        Some options to consider: rib, moss, or - for retro 80s fabulousness -
+        shaker stitch.
+      </p>
+      <p></p>
+      <h2>Input Measurements</h2>
+      <h3>Scarf Size</h3>
+      <p>
+        <label for="pattern_width">Width</label><br />
+        <input type="text" name="pattern[width]" id="pattern_width" />
+      </p>
+      <p>
+        <label for="pattern_length">Length</label><br />
+        <textarea name="pattern[length]" id="pattern_length"></textarea>
+      </p>
+
+      <h3>Gauge</h3>
+      <p>
+        <label for="pattern_stitches">Stitches</label><br />
+        <input type="text" name="pattern[stitches]" id="pattern_stitches" />
+      </p>
+      <p>
+        <label for="pattern_rows">Rows</label><br />
+        <textarea name="pattern[rows]" id="pattern_rows"></textarea>
+      </p>
+
+      <p>
+        <input
+          type="submit"
+          name="commit"
+          value="Save Pattern"
+          data-disable-with="Save Pattern"
+        />
+      </p>
+    </form>
+  </body>
+</html>
